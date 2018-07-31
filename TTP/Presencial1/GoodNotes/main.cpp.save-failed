@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+    string a, b;
+    int p;
+    bool r;
+    cin >> a >> b;
+    for(int x = 0; x < b.length() && a.length() > 0; x++){
+        p = a.find(b[x]);
+        if(p == -1){
+            b.erase(x, 1);
+            x--;
+            a.erase(p, 1);
+        }
+    }
+    if(a == b)
+        cout << "Yes" << endl;
+    else
+        cout << "No" << endl;
+    return 0;
+}

@@ -1,0 +1,18 @@
+#include <cstdio>
+#include <cmath>
+
+using namespace std;
+
+int main(){
+    long double n;
+    scanf("%ld", &n);
+    while(n != 0){
+        long double square = sqrtl((8*n+1));
+        if(if(sqrt(pow(square, 2))) == square)
+            printf("%s\n", "YES");
+        else
+            printf("%s\n", "NO");
+        scanf("%llu", &n);
+    }
+    return 0;
+}

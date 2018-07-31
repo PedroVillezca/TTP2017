@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1508018739 source:c:\users\pedro villezca\documents\1st semester\intro\ttp\semana2\hugohausaufgabe\main.cpp
+	<cstdio>
+	<cmath>
+	<cstring>
+	<algorithm>
+	<sstream>
+

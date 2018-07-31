@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1507582051 source:c:\users\pedro villezca\documents\1st semester\intro\ttp\semana 1\actividadfinalsobrecarga\main.cpp
+	<iostream>
+	"Bulto.h"
+
+1507583014 c:\users\pedro villezca\documents\1st semester\intro\ttp\semana 1\actividadfinalsobrecarga\bulto.h
+	<math.h>
+

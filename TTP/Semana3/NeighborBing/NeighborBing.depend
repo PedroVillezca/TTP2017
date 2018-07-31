@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1508429778 source:c:\users\pedro villezca\documents\1st semester\intro\ttp\semana3\neighborbing\main.cpp
+	<cstdio>
+	<cstring>
+	<sstream>
+	<algorithm>
+

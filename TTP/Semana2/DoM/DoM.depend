@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507823107 source:c:\users\pedro villezca\documents\1st semester\intro\ttp\semana2\dom\main.cpp
+	<iostream>
+	<cstdio>
+	<cmath>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1508449294 source:c:\users\pedro villezca\documents\1st semester\intro\ttp\semana3\repaso2doparcial\main.cpp
+	<iostream>
+	"Capacidad.h"
+	"Envase.h"
+	"Refresco.h"
+	"Agua.h"
+
+1508445771 c:\users\pedro villezca\documents\1st semester\intro\ttp\semana3\repaso2doparcial\capacidad.h
+
+1508448413 c:\users\pedro villezca\documents\1st semester\intro\ttp\semana3\repaso2doparcial\envase.h
+
+1508449470 c:\users\pedro villezca\documents\1st semester\intro\ttp\semana3\repaso2doparcial\refresco.h
+
+1508449473 c:\users\pedro villezca\documents\1st semester\intro\ttp\semana3\repaso2doparcial\agua.h
+

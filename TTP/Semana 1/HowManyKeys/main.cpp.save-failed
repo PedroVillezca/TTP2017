@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+
+/*
+
+*/
+
+using namespace std;
+
+int main(){
+    int l, l2, a = 0, b = 0;
+    bool s = true;
+    cin >> l;
+    l2 = l;
+    string arr[l];
+    cin >> arr[0];
+    for(int x = 1; x < l; x++){
+        cin >> arr[x];
+        for(int c = 0; c < x; c++){
+            while((a != arr[c].length()-1 || b != arr[x].length()-1) && s){
+            if(arr[c].at(a) != arr[x].at(b))
+                s = false;
+            else{
+                if(a+1 < arr[c].length())
+                    a++;
+                if(b+1 < arr[x].length())
+                    b++;
+            }
+        }
+        cout << s << endl;
+        a = b = 0;
+        if(!s)
+            l2--;
+            s = true;
+        }
+    }
+    cout << l2 << endl;
+    return 0;
+}
